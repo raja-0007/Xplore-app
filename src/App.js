@@ -46,7 +46,7 @@ function App() {
 
   console.log(menswr)
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/xplore-app'>
       <div className='container-fluid'>
         <div className='row sticky-top'>
           {/*<div className='col-12 bg-success-subtle navbars'>
