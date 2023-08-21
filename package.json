@@ -2,7 +2,7 @@
   "homepage": "https://raja-0007.github.io/xplore-app",
   "name": "xplore",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
