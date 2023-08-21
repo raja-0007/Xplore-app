@@ -114,7 +114,7 @@ function App() {
 
         </div>
         <Routes>
-          <Route exact path='/' element={<Home/>}></Route>
+          <Route exact path='/xplore-app' element={<Home/>}></Route>
           <Route path='/mens' element={<Mens />}></Route>
           <Route path='/womens' element={<Womens />}></Route>
           <Route path='/electronics' element={<Electronics />}></Route>
