@@ -47,7 +47,7 @@ function App() {
 
   console.log(menswr)
   return (
-    <BrowserRouter basename='/xplore-app'>
+    <BrowserRouter>
       <div className='container-fluid'>
         <div className='row sticky-top'>
           {/*<div className='col-12 bg-success-subtle navbars'>
@@ -80,7 +80,7 @@ function App() {
           <nav class="navbar navbar-expand-md bg-success-subtle">
             <div class="container-fluid p-0">
               <div className='bnavlogo '>
-              <span><Link to={'/xplore-app'} className='bnavlink'><i class="fa-brands fa-xing fa-2xl logo"></i><span className='tittle'>plore</span></Link>  </span>
+              <span><Link to={'/'} className='bnavlink'><i class="fa-brands fa-xing fa-2xl logo"></i><span className='tittle'>plore</span></Link>  </span>
               <i class="fa-solid fa-bars fa-xl navbar-toggler border-0"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></i>
               </div>
               
@@ -114,7 +114,7 @@ function App() {
 
         </div>
         <Routes>
-          <Route path='/xplore-app' element={<Home/>}></Route>
+          <Route path='/' element={<Home/>}></Route>
           <Route path='/mens' element={<Mens />}></Route>
           <Route path='/womens' element={<Womens />}></Route>
           <Route path='/electronics' element={<Electronics />}></Route>
