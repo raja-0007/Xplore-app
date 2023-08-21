@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/xplore-app/static/css/main.be2c6bf4.css",
-    "main.js": "/xplore-app/static/js/main.310efcf7.js",
+    "main.js": "/xplore-app/static/js/main.540495d4.js",
     "static/media/eslider1.png": "/xplore-app/static/media/eslider1.879fb76f679ec6139a49.png",
     "static/media/eslider2.webp": "/xplore-app/static/media/eslider2.7af067cf185716779f31.webp",
     "static/media/blue-cloudy-sky-wallpaper1.jpg": "/xplore-app/static/media/blue-cloudy-sky-wallpaper1.e131594154d9716a3c5e.jpg",
     "static/media/eslider3.webp": "/xplore-app/static/media/eslider3.b6c9c0f35ab98865881e.webp",
     "index.html": "/xplore-app/index.html",
     "main.be2c6bf4.css.map": "/xplore-app/static/css/main.be2c6bf4.css.map",
-    "main.310efcf7.js.map": "/xplore-app/static/js/main.310efcf7.js.map"
+    "main.540495d4.js.map": "/xplore-app/static/js/main.540495d4.js.map"
   },
   "entrypoints": [
     "static/css/main.be2c6bf4.css",
-    "static/js/main.310efcf7.js"
+    "static/js/main.540495d4.js"
   ]
 }
