@@ -80,7 +80,7 @@ function App() {
           <nav class="navbar navbar-expand-md bg-success-subtle">
             <div class="container-fluid p-0">
               <div className='bnavlogo '>
-              <span><Link to={'/'} className='bnavlink'><i class="fa-brands fa-xing fa-2xl logo"></i><span className='tittle'>plore</span></Link>  </span>
+              <span><Link to={'/xplore-app'} className='bnavlink'><i class="fa-brands fa-xing fa-2xl logo"></i><span className='tittle'>plore</span></Link>  </span>
               <i class="fa-solid fa-bars fa-xl navbar-toggler border-0"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></i>
               </div>
               
