@@ -1,0 +1,535 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbars {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navlogo {
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.tittle {
+    font-size: 1.5em;
+
+    color: rgb(119, 139, 142);
+    font-weight: bold;
+}
+
+#toggler {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3em;
+    color: cadetblue;
+}
+
+#toglebtn{
+    display: none;
+}
+
+
+#searchinp {
+    width: 0px;
+    height: 40px;
+    /*border: 2px solid cadetblue;*/
+    border-right: 0px;
+    border: 0px;
+    /*padding-left: 20px;*/
+    border-radius: 20px 0px 0px 20px;
+    transition: all 1s;
+}
+
+#searchbtn {
+
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(58, 114, 116);
+    border-radius: 20px;
+    border: 2px solid cadetblue;
+    
+    transition: all 1.5s;
+
+}
+
+#searchbtn:hover {
+    /*rgb(58, 114, 116)*/
+    color: white;
+    background-color: cadetblue;
+
+}
+
+#navlinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navlink {
+    text-decoration: none;
+    transition: all .3s;
+    color: rgb(58, 114, 116);
+
+}
+
+.bnavlink {
+    text-decoration: none;
+    transition: all .3s;
+    color: rgb(58, 114, 116);
+
+}
+.bnavlink:hover {
+    color: cadetblue;
+}
+.bnavlogo{
+    width: 20%;
+    text-align: center;
+}
+#navbarSupportedContent{
+    width: 80%;
+}
+.bnavul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.navlink:hover {
+    color: cadetblue;
+}
+.navbar-toggler{
+    cursor: pointer;
+}
+.labels {
+
+    margin-left: 10px;
+}
+
+input[type=text],
+input[type=button] {
+    outline: none;
+}
+
+.dropdown-menu {
+    background-color: cadetblue;
+
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(152, 201, 203);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .5s;
+    
+}
+.card:hover{
+    background-color: rgb(233, 233, 233);
+}
+.cardimg {
+    width: 250px;
+    height: 250px;
+}
+.wcardimg {
+    
+    width: 250px;
+    height: 250px;
+}
+
+.card-body {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.categorieshead {
+    padding-top: 10px;
+    height: 40px;
+    border-bottom: 2px solid cadetblue;
+}
+.weatherheading{
+    color: rgb(29, 93, 109);
+    font-size: 4em;
+}
+#weatherinp {
+
+    width: 50%;
+    height: 40px;
+    border: 2px solid cadetblue;
+    
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.weatherinpspan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.weatherinpspan .searchbtn{
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color: rgb(58, 114, 116);
+    transition: all .3s;
+}
+.weatherinpspan .searchbtn:hover {
+    /*rgb(58, 114, 116)*/
+    color: white;
+    background-color: cadetblue;
+
+}
+.weatherhead {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.weatheroutlook{
+    background-image: url(images/blue-cloudy-sky-wallpaper1.jpg);
+}
+#citycollect{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    transition: all 1s;
+}
+.cities{
+    border-radius: 10px;
+    
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 2px solid cadetblue;
+}
+.cities h4{
+    color: rgb(29, 93, 109);
+}
+#resulttable{
+    display: none;
+    width: 30%;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    
+}
+.resulthead{
+    width: 100%;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: cadetblue;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+}
+#Hyderabad,#Chennai,#Delhi,#Mumbai{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.citieslabel{
+    font-weight: bold;
+}
+.usersheading{
+    color: rgb(56, 121, 125);
+    
+    font-weight: bold;
+}
+.carousel{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.cardiv{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    height: auto;
+}
+#cartxt{
+    position: absolute;
+    top: 40%;
+    padding-left: 20%;
+    
+    transition: all .7s;
+}
+.cartitle{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+.cartitle i{
+    color: cadetblue;
+}
+.tmens{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid cadetblue;
+}
+.trdiv{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    transition: all .5s;
+    background-color: white;
+    border-radius: 10px;
+}
+.trdiv:hover{
+    background-color: rgb(233, 233, 233);
+}
+.timg img{
+    width: 250px;
+    height: 250px;
+}
+.ttxt{
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+}
+.foot1,.foot2{
+    height: 250px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(7, 99, 99);
+    color: rgb(197, 197, 197)
+}
+.footlogo{
+    font-size: 8em;
+    color: white;
+}
+.foot1{
+    background-color: rgb(19, 84, 86);
+}
+.foot21{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footlist{
+    list-style-type: none;
+}
+.foot2 h4{
+    color: white;
+}
+.rating{
+    color: cadetblue;
+}
+.viewall{
+    text-decoration: none;
+}
+
+@media screen and (max-width:799px){
+    
+    
+    .bnavlogo{
+        padding-left: 5%;
+        padding-right: 1%;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    #navbarSupportedContent{
+        width: 100%;
+        
+    }
+    .bnavul{
+        padding-left: 5%;
+    }
+    #searchinp {
+        width: 0px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .cartitle{
+        font-size: 2em;
+        color: white;
+        font-weight: bold;
+    }
+    .foot1,.foot2{
+        height: 300px;
+    }
+    
+    .foot2{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .weatherhead {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .weatheroutlook{
+        background-image: url(images/blue-cloudy-sky-wallpaper1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #weatherinp {
+
+        width: 70%;
+        height: 40px;
+        border: 2px solid cadetblue;
+        
+        padding-left: 20px;
+        border-radius: 20px;
+    }
+    .weatherheading{
+        color: rgb(29, 93, 109);
+        font-size: 2.5em;
+    }
+    #citycollect{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    .cities{
+        border-radius: 10px;
+        
+        width: 90%;
+        padding: 10px;
+        border: 2px solid cadetblue;
+    }
+    #resulttable{
+        display: none;
+        width: 80%;
+        border: 2px solid cadetblue;
+        border-radius: 10px;
+    }
+    .resulthead{
+        width: 100%;
+        padding: 3px;
+        padding-left: 10px;
+        background-color: cadetblue;
+        border-radius: 5px 5px 0px 0px;
+        color: white;
+    }
+}
+@media screen and (max-width:599px) {
+
+    .navbars {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #toglebtn {
+        display: flex;
+        cursor: pointer;
+    }
+
+    #toggler {
+        width: 100%;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        align-items: center;
+    }
+
+    #searchinp {
+        width: 0px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .navlogo {
+        padding-left: 10%;
+        padding-right: 3%;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    #navlinks {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: baseline;
+
+    }
+    #cartxt{
+        position: absolute;
+        top: 20%;
+        padding-left: 20%;
+        
+        transition: all .7s;
+    }
+    
+    .cartitle{
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+    }
+    .foot1{
+        height: 250px;
+        
+    }
+    .foot2{
+        
+        height: 350px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .foot21{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .foot22{
+        align-items: flex-start;
+    }
+
+}
